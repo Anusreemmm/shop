@@ -1,0 +1,99 @@
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    
+}
+.nav h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  */
+.heading{
+    text-align: center;
+    margin-top: 150px;
+}
+/*  */
+.productscards{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 90px;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+ }
+ .card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+ }
+.card {
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 12px rgba(0,0,0,0.1);
+}
+.card a{
+    background-color: black;  
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.card p{
+    padding-bottom: 30px;
+}
+.card h3{
+    margin-bottom: 15px;
+}
+/*  */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 50px;
+}
+.about{
+    color: white;
+}
+.about p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.links{
+    color: white;
+}
+.links a{
+    color: blue;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 18px;
+}
+.contact{
+    color: white;
+}
+.contact p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+ul{
+  list-style: none;
+}
+.footer div {
+  width: 30%;
+}

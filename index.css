@@ -1,0 +1,168 @@
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    
+}
+.nav h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  */
+.welcome img{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
+    float: right;
+    margin: 40px 0px;
+}
+.welcome h1{
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.welcome {
+    padding: 60px 80px;
+}
+.welcome p{
+    font-size: 20px;
+    margin-top: 20px;
+    padding-bottom: 45px;
+    line-height: 30px;
+}
+.welcome a{
+    background-color: black;  
+    color: white;
+    text-decoration: none;
+    padding: 13px 25px;
+    border-radius: 5px;
+}
+/*  */
+.heading{
+    text-align: center;
+    margin-top: 150px;
+}
+/*  */
+
+/* using flex:
+
+.products{ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+.card img{
+    width: 250px;
+    height: 250px;
+    box-shadow: 0px 0px 12px rgb(200, 195, 195);
+    object-fit: cover;
+} */
+
+ /* using grid: */
+
+.productscards{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 90px;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+ }
+ .card img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+ }
+.card {
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 4px 12px rgba(0,0,0,0.1);
+}
+.card a{
+    background-color: black;  
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.card p{
+    padding-bottom: 30px;
+}
+.card h3{
+    margin-bottom: 15px;
+}
+/*  */
+.blog h1{
+    text-align: center;
+    margin-top: 100px;
+}
+/*  */
+.blogcontent{
+    margin-top: 50px;
+}
+.blogcontent img{
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 0px 20px 20px 50px;
+    border-radius: 10px;
+}
+.blogcontent p{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0px 50px 50px 50px;
+    text-align: justify;
+}
+/*  */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 50px;
+}
+.about{
+    color: white;
+}
+.about p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.links{
+    color: white;
+}
+.links a{
+    color: blue;
+    text-decoration: none;
+    line-height: 25px;
+    font-size: 18px;
+}
+.contact{
+    color: white;
+}
+.contact p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+ul{
+  list-style: none;
+}
+.footer div {
+  width: 30%;
+}
